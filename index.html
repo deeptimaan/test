@@ -272,8 +272,8 @@ return;
            <div class='form-input'>
                <input type="submit" id='myBtn' class="submitBtn" value="Submit"/>
            </div>
-           <div id="show_data">
-           <a href="https://docs.google.com/spreadsheets/d/1XhM2N7ICHBHG2AupwK8FJJnK8LDsBA0BKc_Ss3Wzq28/edit?usp=sharing" target="_blank">Show Data</a></div>
+           <span id="show_data">
+           <a href="https://docs.google.com/spreadsheets/d/1XhM2N7ICHBHG2AupwK8FJJnK8LDsBA0BKc_Ss3Wzq28/edit?usp=sharing" target="_blank">Show Data</a></span>
 </form>
 </div>
 <div id="loader"></div>
@@ -302,10 +302,10 @@ $(function() {
 <style>
   html{
     font-size: 16px;
-    }
+}
 
 body{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(98, 95, 241, 0.635);
     margin: 0;
     font-family: sans-serif;
     color: white;
@@ -342,8 +342,8 @@ h1{
   font-style: italic;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5)
 }
-#frmSubmit{
-   background: rgba(0, 0, 134, 0.83);
+#survey-form{
+   background: rgba(21, 20, 85, 0.7);
    padding: 2.3rem 0.5rem;
    border-radius: 0.3rem;
 }
@@ -386,7 +386,7 @@ textarea{
  padding: 0.5rem 0 0 0.5rem;
 }
 
-#btnSubmit{
+#myBtn{
  width: 100%;
  padding: 0.8rem;
  background: rgb(7, 173, 10);
@@ -395,7 +395,16 @@ textarea{
  cursor: pointer;
  border: none;
 }
+#show_data{
+    background-color: white;
+     width: 100%;
+ padding: 0.8rem;
+ color: white;
+ border-radius: 0.2rem;
+ cursor: pointer;
+ border: none;
+ margin-left: 40%;
+}
 </style>
-</html>
  
 		
